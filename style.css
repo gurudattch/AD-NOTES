@@ -1,0 +1,35 @@
+p{
+    transition-property: 20px;
+    transition-duration: 4s;
+    transition-timing-function: ease-in;
+    transition-delay: 3s;
+}
+
+.trans{
+    height:100px;
+    width:100px;
+    background-color: pink;
+    transition:40px 10s ease-in-out 0s;
+    margin:30%;
+    
+}
+
+.trans{
+    /* transform:rotate(45deg); */
+    /* transform:scale(1.5); */
+    /* transform: scale(2,3); */
+    /* transform: scaleX(1.3); */
+    /* transform: scaleY(3); */
+    /* transform:scaleZ(10); */
+    /* transform: skew(34deg); */
+}
+
+p{
+    animation:textanime 2s linear 3s infinite normal;
+
+}
+@keyframes textanime {
+    0%{color:red;}
+    50%{color:green;}
+    100%{color:blue;}
+}
